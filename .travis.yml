@@ -1,0 +1,7 @@
+language: csharp
+solution: Jenkins.NET.sln
+mono: none
+dotnet: 2.1.502
+script:
+  - dotnet restore
+  - dotnet test
